@@ -11,8 +11,8 @@ interface Props extends TextInputProps{
     name: string;
     error?: string;
 }
-const formControll = control as unknown as
-     Control<FieldValues, any>
+//const formControll = control as unknown as
+     //Control<FieldValues, any>
 
 export function InputForm({
     control,
